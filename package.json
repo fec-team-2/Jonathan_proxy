@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/fec-team-2/Jonathan_proxy/issues"
   },
-  "homepage": "https://github.com/fec-team-2/Jonathan_proxy#readme"
+  "homepage": "https://github.com/fec-team-2/Jonathan_proxy#readme",
+  "devDependencies": {
+    "webpack": "^4.32.0",
+    "webpack-cli": "^3.3.2"
+  }
 }
