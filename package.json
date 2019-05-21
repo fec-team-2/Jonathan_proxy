@@ -1,0 +1,19 @@
+{
+  "name": "jonathan_proxy",
+  "version": "1.0.0",
+  "description": "Proxy project to put all 4 modules together",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fec-team-2/Jonathan_proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fec-team-2/Jonathan_proxy/issues"
+  },
+  "homepage": "https://github.com/fec-team-2/Jonathan_proxy#readme"
+}
