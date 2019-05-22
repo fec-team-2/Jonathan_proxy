@@ -4,7 +4,9 @@
   "description": "Proxy project to put all 4 modules together",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -d --watch"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,18 @@
   },
   "homepage": "https://github.com/fec-team-2/Jonathan_proxy#readme",
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
     "webpack": "^4.32.0",
     "webpack-cli": "^3.3.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.0",
+    "morgan": "^1.9.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }
