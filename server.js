@@ -5,7 +5,7 @@ const morgan = require('morgan');
 const app = express();
 const port = 3000;
 
-app.use(morgan('combined'));
+app.use(morgan('tiny'));
 app.use(express.static(path.join(__dirname, '/public')));
 app.use(bodyParser.json());
 
