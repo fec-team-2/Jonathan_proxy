@@ -1,0 +1,18 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(10, 10% [col-start]);
+  grid-template-rows: [row1] 20% [row2] 20% [row3] 20% [row4] 20% [row5] 20%;
+}
+
+#tjn-root{
+  grid-column-start: col-start 6;
+  grid-column-end: 10;
+  grid-row-start: row1;
+  grid-row-end: row3;
+}
+
+#jjc-app{
+  grid-column-start: col-start 1;
+  grid-column-end: col-start 9;
+  grid-row-start: row4;
+}
